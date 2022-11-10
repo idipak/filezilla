@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		432AB93B291CDE5E005AD2F5 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432AB93A291CDE5E005AD2F5 /* EditCards.swift */; };
 		43B7E038291B8831006B05DA /* FileZillaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B7E037291B8831006B05DA /* FileZillaApp.swift */; };
 		43B7E03A291B8831006B05DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B7E039291B8831006B05DA /* ContentView.swift */; };
 		43B7E03C291B8833006B05DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B7E03B291B8833006B05DA /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		432AB93A291CDE5E005AD2F5 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 		43B7E034291B8831006B05DA /* FileZilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileZilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B7E037291B8831006B05DA /* FileZillaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileZillaApp.swift; sourceTree = "<group>"; };
 		43B7E039291B8831006B05DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				43B7E065291BABDC006B05DA /* README.md */,
-				43B7E063291B8E6A006B05DA /* CardView.swift */,
 				43B7E036291B8831006B05DA /* FileZilla */,
 				43B7E047291B8833006B05DA /* FileZillaTests */,
 				43B7E051291B8833006B05DA /* FileZillaUITests */,
@@ -101,11 +102,13 @@
 		43B7E036291B8831006B05DA /* FileZilla */ = {
 			isa = PBXGroup;
 			children = (
+				43B7E061291B8899006B05DA /* Card.swift */,
 				43B7E037291B8831006B05DA /* FileZillaApp.swift */,
+				43B7E063291B8E6A006B05DA /* CardView.swift */,
 				43B7E039291B8831006B05DA /* ContentView.swift */,
+				432AB93A291CDE5E005AD2F5 /* EditCards.swift */,
 				43B7E03B291B8833006B05DA /* Assets.xcassets */,
 				43B7E03D291B8833006B05DA /* Preview Content */,
-				43B7E061291B8899006B05DA /* Card.swift */,
 			);
 			path = FileZilla;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				43B7E03A291B8831006B05DA /* ContentView.swift in Sources */,
 				43B7E064291B8E6A006B05DA /* CardView.swift in Sources */,
 				43B7E062291B8899006B05DA /* Card.swift in Sources */,
+				432AB93B291CDE5E005AD2F5 /* EditCards.swift in Sources */,
 				43B7E038291B8831006B05DA /* FileZillaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
